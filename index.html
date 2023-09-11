@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css"> 
+</head>
+
+<body>
+
+    <div class="stopwatch flex">
+        <div class="section">
+            <div class="time">
+                <span id="hourid" class="hour"> 00.</span>
+                <span id="minid" class="min"> 00.</span>
+                <span id="secid" class="sec"> 00 </span>
+            </div>
+            <div class="actionbuttons">
+                <button id="start" type="button" class="start"> START </button>
+                <button id="stop" type="button" class="stop disabled"> STOP </button>
+                <button id="reset" type="button" class="resetbutton"> RESET </button>
+            </div>
+            <ul class="laps">
+            </ul>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
